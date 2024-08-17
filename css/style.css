@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+header {
+    text-align: center;
+    background: url('../images/mainbg.png') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+header .header-content h1 {
+    margin: 0;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+
+
+header .one h2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+header .one p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+#images .images {
+    width: 100%;
+    max-width: 1200px;
+}
+
+#course .course-item {
+    display: grid; /* 修正部分 */
+    grid-template-columns: 1fr 1fr; /* 修正部分 */
+    gap: 20px; /* 修正部分 */
+    width: 100%;
+    margin-bottom: 50px;
+    max-width: 1200px;
+}
+
+#course .course-item img {
+    width: 100%;
+    height: auto;
+}
+
+#course .course-content {
+    display: grid;
+}
+
+#news .news-item {
+    display: flex; /* 修正部分 */
+    align-items: center; /* 修正部分 */
+    width: 100%; /* 修正部分 */
+    margin: 20px 0; /* 修正部分 */
+}
+
+#news .news-item img {
+    width: 200px; /* 修正部分 */
+    height: auto; /* 修正部分 */
+    margin-right: 20px; /* 修正部分 */
+}
+
+
+#news .news-text {
+    flex: 1; /* 修正部分 */
+    text-align: left;
+}
+
+#news button {
+        margin-top: 20px;
+}    
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact form input,
+#contact form select,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contact form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
